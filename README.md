@@ -1,15 +1,16 @@
-- Egg Randomizer (Simulasi Grow a Garden Style)
+-- 🌱 Egg Randomizer (Simulasi Grow a Garden Style)
 local eggs = {
- "BUG EGG"
- "COMMON EGG"
- "UNCOMMON EGG"
-}"RARE EGG"
-"MYTICHAL EGG"
-"ZEN EGG"
-"NIGHT EGG"
-"PARADISE EGG"
-"COMMON SUMMER EGG"
-"RARE SUMMER EGG"
+    "BUG EGG",
+    "COMMON EGG",
+    "UNCOMMON EGG",
+    "RARE EGG",
+    "MYTHICAL EGG",
+    "ZEN EGG",
+    "NIGHT EGG",
+    "PARADISE EGG",
+    "COMMON SUMMER EGG",
+    "RARE SUMMER EGG"
+}
 
 -- GUI
 local ScreenGui = Instance.new("ScreenGui")
@@ -32,7 +33,7 @@ Frame.Draggable = true
 Title.Parent = Frame
 Title.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Title.Size = UDim2.new(0, 300, 0, 40)
-Title.Text = "🌱 Grow a Garden - Egg Randomizer"
+Title.Text = "🌱 Egg Randomizer"
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 Title.TextScaled = true
 
